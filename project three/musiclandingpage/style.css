@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+/* font-family: 'Josefin Sans', sans-serif; */
+}
+
+body{
+    border: 1px solid red;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+header{
+    height: 80vh;
+    padding: 0 10rem;
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  
+}
+
+nav{
+    border: 1px solid yellow;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1{
+    font-weight: bolder;
+}
+
+nav li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+header .header-div{
+    border: 1px solid #fff;
+    height: 30rem;
+    width: 40%;
+}
+
+header .header-div h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 7rem;
+}
+
+/* MAIN */
+/* SECTION ONE */
+
+main{
+    padding: 0 10rem;
+}
+
+main .section-one{
+    padding: 10rem;
+    display: flex;
+}
+
+main .section-one  .img-container{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 50%;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+main .section-one-text{
+    width: 60%;
+    /* border: 1px solid red; */
+    height: fit-content;
+    padding: 3rem 3rem 0;
+    transform: translate(-10rem, 10rem);
+    background: #fff;
+    margin-bottom: 3rem;
+}
+
+main .button-section{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+main  .button-section h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+main .button-section button{
+    background-color: #000;
+    color: #fff;
+    width: 10rem;
+    padding: .5rem 0;
+    border: 1px solid;
+}
+
+/* section-three */
+main  .section-three{
+    /* border: 1px solid green; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: fit-content;
+}
+main .section-three img{
+    width: 104%;
+}
+/* footer */
+footer{
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding: 0 10rem;
+    background-color: #000;
+    color: #fff;
+    margin: 10rem 0 0 0;
+    width: 100%;
+    align-items: center;
+    height:fit-content;
+}
+.loop{
+    display: grid;
+    margin-top: 2rem;
+}
+.row li{
+    list-style-type: none;
+    display: inline;
+    padding: .5rem;
+    margin-left: -.5rem;
+}
+.book{
+    /* border: 1px solid white; */
+    width: 100%;
+    margin-left: 50rem;
+    margin-top: -3.5rem;
+}
+.book small{
+    /* border: 1px solid red; */
+    margin-left: .5rem;
+}
+.column img{
+    padding: .5rem;
+}

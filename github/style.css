@@ -1,0 +1,96 @@
+/* the github reset style */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Itim', cursive;
+}
+header{
+   border: 1px solid red;
+}
+
+nav{
+   /* flex-direction: row;*/
+   display: flex;
+   justify-content: space-around;
+   height: fit-content;
+   padding: 1rem;
+}
+
+#logo{
+   display: flex;
+   border: 1px solid;
+   justify-content: space-around;
+   align-items: center;
+   width: 20rem;
+}
+
+#logo h1{
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-transform: uppercase
+}
+
+#nav-menu{
+   border: 1px solid blue;
+   display: flex;
+}
+
+#nav-menu ul li{
+ display: inline;
+ padding: 0 1rem;
+
+}
+
+#nav-menu a{
+   text-decoration: none;
+}
+
+main{
+   color: #fff;
+   display: flex;
+   background-image: url(image/WhatsApp\ Image\ 2021-04-29\ at\ 12.05.03\ PM.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 60vh;
+}
+
+main #section-one{
+   display: flex ;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   flex: 1;
+   padding: 0 0 0 5rem;
+}
+
+main #section-one h1{
+   
+   font-size: 3rem;
+   line-height:  rem;  
+}
+
+main #section-one p{
+   font-size: 1.5rem;
+   padding: 0 1rem;
+   margin: 1rem 0;
+}
+
+main #section-one p a{
+   color: rgb(0, 153, 255);
+}
+
+/* ***************** */
+main #section-two{
+   flex: 1;
+}
+i{
+   font-size: 5rem;
+   color: blue;
+}

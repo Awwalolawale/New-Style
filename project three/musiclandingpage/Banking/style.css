@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,100&display=swap');
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      /* border: 5px solid green; */
+      max-width: 1440;
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  header{
+
+  }
+
+  nav{
+      border: 1px solid red;
+      display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-menu li{
+      display: inline;
+      padding: 0 1rem;
+  }
+
+
+  /* MAIN */
+
+.section-one{
+    display: flex;
+    height: 100vh;
+    text-align: left;
+}
+
+.section-one-text, .img-container{
+    flex: 1;
+}
+
+.section-one .img-container{
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+
+.img-container img{
+    width: 50%;
+    height: 50%;
+}
+
+.img-container #img-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid green;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+/* Variables */
+:root {
+    /* Primary */
+    --backgroung-color-intro: hsl(217, 285%, 15%);
+    --background-color-main: hsl(218, 28%, 13%);
+    --background-color-footer: hsl(216, 53%, 9%);
+    --background-color-testimonial: hsl(219, 30%, 18%);
+
+    /* neural */
+--white: hsl (0, 0%, 100%)
+}
+
+*,
+::after,
+::before 
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cc-container{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    font-size: 14px;
+    background-color: var(--background-color-main);
+    color: var(--white);
+}
+main{
+    
+}
+
+
+.cc-logo{
+    width: 50%;
+}
+
+.cc-hero{
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cc-link{
+    border-bottom: 1px solid #05c2c9;
+}
+
+.card{
+    background-color: var(--background-color-testimonial);
+}
+
+.cc-p{
+    margin: 0;
+}
